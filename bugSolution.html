@@ -1,0 +1,9 @@
+The solution is to avoid using the `@apply` directive with pseudo-selectors. Apply the styles directly to the element:
+
+```html
+<button class="hover:bg-blue-500">
+  Click me
+</button>
+```
+
+This will correctly apply the `bg-blue-500` class to the button when it is hovered.
